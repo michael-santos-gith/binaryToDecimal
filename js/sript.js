@@ -20,5 +20,6 @@ function binaryDecimal(binary) {
       document.getElementById('response').innerHTML = 0;
     } else {
       document.getElementById('response').innerHTML = binaryDecimal(binary.value);
+      binary.value = '';
     }
   })
