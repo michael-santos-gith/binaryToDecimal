@@ -49,3 +49,15 @@ button#compute {
     background-color: #77ACF2;
     color: #E9EFF2;
 }
+/* 768px */
+@media (min-width: 768px) {
+    #container {
+        padding: 0 100px;
+    }
+}
+/* 1024px */
+@media (min-width: 768px) {
+    #container {
+        padding: 0 200px;
+    }
+}
