@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #031A63;
+    color: #E9EFF2;
+    height: 100vh;
+}
+
+input#binary-number {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #77ACF2;
+}
+
+input#binary-number:focus {
+    border: 3px double #447EF2;
+    outline: none;
+}
+
+p#reponse {
+    padding: 10px;
+    color: #E9EFF2;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 25px;
+    height: 100vh;
+}
+
+button#compute {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.125em;
+    border-radius: 5px;
+    border: 2px solid #77ACF2;
+    background-color: #77ACF2;
+    color: #E9EFF2;
+}
